@@ -1,0 +1,53 @@
+export const pricing = [
+  {
+    name: 'Kelas Kelompok',
+    price: 250000,
+    unit: 'bulan',
+    mode: '',
+    description: 'Belajar dan bertumbuh bersama.',
+    features: ['Jadwal tetap', 'Kelompok kecil', 'Materi sesuai program', 'Online / Tatap Muka'],
+    popular: false,
+  },
+  {
+    name: 'Kelas Online',
+    price: 250000,
+    unit: 'bulan',
+    mode: 'Online',
+    description: 'Lebih dekat, dari mana saja.',
+    features: [
+      'Belajar dari mana saja',
+      'Pendampingan pengajar',
+      'Jadwal terstruktur',
+      'Kelompok kecil',
+    ],
+    popular: true,
+  },
+  {
+    name: 'Kelas Tatap Muka',
+    price: 300000,
+    unit: 'bulan',
+    mode: 'Tatap Muka',
+    description: 'Suasana hangat di tempat belajar.',
+    features: [
+      'Datang ke tempat belajar',
+      'Belajar bersama teman',
+      'Pendampingan langsung',
+      'Materi sesuai level',
+    ],
+    popular: false,
+  },
+  {
+    name: 'Private Online',
+    price: 100000,
+    unit: 'pertemuan',
+    mode: 'Online',
+    description: 'Sesi online dengan perhatian personal.',
+    features: [
+      'Hanya tersedia online',
+      'Jadwal sesuai kesepakatan',
+      'Materi sesuai kebutuhan',
+      'Pendampingan personal',
+    ],
+    popular: false,
+  },
+]
